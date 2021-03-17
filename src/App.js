@@ -3,6 +3,7 @@ import About from "./components/About/About";
 import NavBar from "./components/Nav/NavBar";
 import Footer from "./components/Footer/footer";
 import Home from "./components/Home/home";
+import Work from "./components/Work/work";
 import './App.css';
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <div>
         <NavBar />
         <Route exact path ="/" component={Home} />
+        <Route exact path ="/Work" component={Work} />
         <Route exact path="/About" component={About} />
         <Footer />
       </div>

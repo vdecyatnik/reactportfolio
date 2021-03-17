@@ -13,9 +13,9 @@ function Footer() {
         <li className="nav-item">
            <a className="nav-link active text-dark" rel="noreferrer" href="https://www.linkedin.com/in/valentinadecyatnik/">Linked In</a> 
         </li>
-        {/* <li className="nav-item">
+        <li className="nav-item">
           <a className="nav-link text-dark" href="https://github.com/vdecyatnik"  rel="noreferrer" tabIndex="-1" aria-disabled="true">Git Hub</a>
-        </li>  */}
+        </li>  
       </ul>
 
 

@@ -8,7 +8,7 @@ function Home(){
 
         <div className= "container-fluid">
 
-            <img src={pic} className= "img-fluid" alt="photo of water"></img>
+            <img src={pic} className= "img-fluid" alt="..."></img>
         </div>
 
 
