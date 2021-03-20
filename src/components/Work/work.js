@@ -66,7 +66,8 @@ const projects = [
 
 function Work() {
   return (
-    <div className="container-fluid">
+   
+    <div className="container">
       <div className="row mt-3 m-3 ">
         {projects.map((prj) => {
           return (
@@ -100,6 +101,7 @@ function Work() {
         })}
       </div>
     </div>
+   
   );
 }
 

@@ -5,22 +5,23 @@ import Footer from "./components/Footer/footer";
 import Home from "./components/Home/home";
 import Work from "./components/Work/work";
 import Contact from "./components/Contact/Contact"
-import "../src/components/Footer/index.css";
-import "../src/components/Home/index.css";
+
+import "react-bootstrap";
+
   
 import './App.css';
 
 function App() {
   return (
     <Router>
-      <div>
+     <div>
         <NavBar />
         <Route exact path ="/" component={Home} />
         <Route exact path ="/Work" component={Work}/>
          <Route exact path ="/Contact" component={Contact} />  
         <Route exact path="/About" component={About} />
         <Footer />
-      </div>
+     </div>
     </Router>
     
 

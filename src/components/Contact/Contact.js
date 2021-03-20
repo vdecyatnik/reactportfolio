@@ -1,8 +1,11 @@
 import React from "react";
 import Resume from "../../ResumeFolder/2021valResume.pdf";
+import "./index.css";
 
 function Contact() {
   return (
+
+   
     <div className="container-fluid">
       <div className="jumbotron mt-3  bg-light">
         <div className="container">
@@ -41,6 +44,9 @@ function Contact() {
         </div>
       </div>
     </div>
+   
+    
+    
   );
 }
 
