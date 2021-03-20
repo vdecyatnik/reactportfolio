@@ -7,8 +7,6 @@ import covid from "../../cardimages/covid.png";
 import recipe from "../../cardimages/recipe.png";
 import quiz from "../../cardimages/quiz.png";
 
-
-
 const projects = [
   {
     image: home,
@@ -33,7 +31,7 @@ const projects = [
     image: weather,
     title: "Weather Dashboard",
     description:
-      "Simple weather application pulling weather data from a weather API. Search for your city and get the current weather along with a five day forecast. ",
+      "Simple weather application pulling weather data from a weather API. Search for your city and get the current weather along with a five day forecast. Search history saves to local storage and to a new search button making it easy to quickly check weather in recently searched cities. ",
     livesite: "https://vdecyatnik.github.io/Weather-Dashboard/",
     githubrepo: "https://github.com/vdecyatnik/Weather-Dashboard",
   },
@@ -42,7 +40,7 @@ const projects = [
     image: burger,
     title: "Burger App",
     description:
-      "A burger app created using MySql, Node, Express and Handlebars. Order a burger you would like to eat and get ready to devour it! Burgers are entered into a  MySql database and deleted after being devoured. ",
+      "A burger app created using MySql, Node, Express, Bootstrap and Handlebars. Order a burger you would like to eat and get ready to devour it! Burgers are entered into a  MySql database and deleted after being devoured. ",
     livesite: "https://ancient-atoll-04123.herokuapp.com/",
     githubrepo: "https://github.com/vdecyatnik/Burger-App",
   },
@@ -51,7 +49,7 @@ const projects = [
     image: recipe,
     title: "Recip Now",
     description:
-      "Create an account to enter recipes to be shared online or to search for new recipes to try at home.",
+      "Create an account on Recip Now to save, share and find new recipes to try at home. All recipes are stored into a MySql database. ",
     livesite: "https://rocky-peak-18836.herokuapp.com/",
     githubrepo: "https://github.com/zehrl/RecipNow",
   },
@@ -60,7 +58,7 @@ const projects = [
     image: quiz,
     title: "JavaScript Quiz",
     description:
-      "A multiple choice timed Javascript themed quiz created with vanilla Javascript. Save your name and score in local storage. ",
+      "A multiple choice timed Javascript themed quiz created with vanilla Javascript. Your iniitials and score will be saved into local storage and onto a score page. Go back and try to beat your highest score! q 4rd ",
     livesite: "https://vdecyatnik.github.io/Code-Quiz/",
     githubrepo: "https://github.com/vdecyatnik/Code-Quiz",
   },
@@ -69,14 +67,10 @@ const projects = [
 function Work() {
   return (
     <div className="container-fluid">
-
-
       <div className="row mt-3 m-3 ">
         {projects.map((prj) => {
           return (
             <div className="row no-gutters  position-relative shadow-lg p-3 mb-5 rounded">
-
-      
               <div className="col-md-6 mb-md-0 p-md-4">
                 <img src={prj.image} className="w-100" alt="..." />
               </div>
@@ -89,9 +83,9 @@ function Work() {
                   href={prj.livesite}
                   className="stretched-link"
                 >
-                  Live Application 
+                  Live Application
                 </a>
-               
+                <br />
                 <a
                   target="_blank"
                   rel="noreferrer"

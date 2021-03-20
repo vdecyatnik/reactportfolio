@@ -5,7 +5,7 @@ function NavBar() {
   const location = useLocation();
 
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <nav className="navbar navbar-expand-lg navbar-light bg-light ">
       <div className="container">
         <h1 className="navbar-brand" href="#">
           Valentina Decyatnik

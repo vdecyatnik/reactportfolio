@@ -6,7 +6,7 @@ function Home(){
 
     return(
 
-        <div className= "container-fluid">
+        <div className= "container-fluid page-container">
 
             <img src={pic} className= "img-fluid" alt="..."></img>
         </div>

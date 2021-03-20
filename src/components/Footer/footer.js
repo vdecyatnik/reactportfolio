@@ -5,7 +5,7 @@ function Footer() {
     return(
 
 
-        <ul className="nav justify-content-center">
+        <ul className="nav justify-content-center footer ">
        
         <li className="nav-item">
            <a className="nav-link active text-dark" href="mailto:vdecyatnik@gmail.com">VDecyatnik@Gmail.com</a> 
