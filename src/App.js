@@ -9,7 +9,8 @@ import Contact from "./components/Contact/Contact"
 import "react-bootstrap";
 
   
-import './App.css';
+// import './App.css';
+// import "./components/Home/index.css";
 
 function App() {
   return (

@@ -2,10 +2,11 @@ import React from "react";
 
 import burger from "../../cardimages/burger-.png";
 import home from "../../cardimages/homepage.png";
-import weather from "../../cardimages/weatherDashboard.png";
+
 import covid from "../../cardimages/covid.png";
 import recipe from "../../cardimages/recipe.png";
 import quiz from "../../cardimages/quiz.png";
+import emptracker from "../../cardimages/Emp1.png";
 
 const projects = [
   {
@@ -28,12 +29,11 @@ const projects = [
   },
 
   {
-    image: weather,
-    title: "Weather Dashboard",
-    description:
-      "Simple weather application pulling weather data from a weather API. Search for your city and get the current weather along with a five day forecast. Search history saves to local storage and to a new search button making it easy to quickly check weather in recently searched cities. ",
-    livesite: "https://vdecyatnik.github.io/Weather-Dashboard/",
-    githubrepo: "https://github.com/vdecyatnik/Weather-Dashboard",
+    image: emptracker,
+    title: "Employee Tracker",
+    description:"This application was made using React.js and Bootstrap. Users are able to view all employees in the directory as well as filter by name and sort by age." ,
+    livesite: "https://employtrack.herokuapp.com/",
+    githubrepo: "https://github.com/vdecyatnik/employee-tracker",
   },
 
   {

@@ -1,12 +1,12 @@
 import React from "react";
 import Resume from "../../ResumeFolder/2021valResume.pdf";
-import "./index.css";
+ import "./index.css";
 
 function Contact() {
   return (
 
    
-    <div className="container-fluid">
+    <div className="container-fluid fixheight">
       <div className="jumbotron mt-3  bg-light">
         <div className="container">
           <h1 className="display-4">Contact Me</h1>
@@ -33,7 +33,7 @@ function Contact() {
                     <a href="tel:2068830308" style={{color:"black"}}>(206)-883-0308</a>
                   </li>
                   <li>
-                  <a href={Resume} download="Resume.pdf" style={{color:"black"}}>Resume</a>
+                  <a href={Resume} download="Resume.pdf" style={{color:"black"}}>Click here to download my Resume!</a>
                   </li>
                 </ul>
               </div>
